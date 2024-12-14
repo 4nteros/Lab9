@@ -6,11 +6,6 @@ int main()
     std::cout << "Enter number: ";
     std::cin >> num;
 
-    if (num > INT_MAX || num < INT_MIN)
-    {
-        return -1;
-    }
-
     std::cout << &num << std::endl;
 
     unsigned char* bytePtr = reinterpret_cast<unsigned char*>(&num);  
