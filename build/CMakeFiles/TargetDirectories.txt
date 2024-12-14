@@ -1,0 +1,3 @@
+C:/Users/PC/Desktop/Lab9/build/CMakeFiles/bfu.dir
+C:/Users/PC/Desktop/Lab9/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/PC/Desktop/Lab9/build/CMakeFiles/ZERO_CHECK.dir

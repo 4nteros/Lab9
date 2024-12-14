@@ -1,0 +1,10 @@
+^C:\USERS\PC\DESKTOP\LAB9\BUILD\CMAKEFILES\9A8E6704CF59784B2C82BA655306CD4A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/PC/Desktop/Lab9 -BC:/Users/PC/Desktop/Lab9/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/PC/Desktop/Lab9/build/bfu.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
